@@ -41,8 +41,8 @@
         $mail->Host       = 'smtp.gmail.com';                       //kimin üzerinden gönderen                    
         //$mail->SMTPSecure = 'ssl';
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'denemetest3211@gmail.com';                     // SMTP username
-        $mail->Password   = '321test123';                               
+        $mail->Username   = '*******';                     // SMTP username
+        $mail->Password   = '*******';                               
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
         $mail -> Port  =587;      
 
@@ -55,8 +55,8 @@
         ); 
         
 
-        $mail->setFrom('denemetest3211@gmail.com', 'İletisim Formu');           //kimden gideceği username ile aynı olur
-        $mail->addAddress('testdenemetest3@gmail.com', 'Ayşe Sena Yüksel');     // mail gideceği 
+        $mail->setFrom('*******', 'İletisim Formu');           //kimden gideceği username ile aynı olur
+        $mail->addAddress('******', 'Ayşe Sena Yüksel');     // mail gideceği 
         
         $mail->isHTML(true);         
         $mail->CharSet = 'UTF-8';                         
